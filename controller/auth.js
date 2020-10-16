@@ -1,9 +1,9 @@
 exports.register = (req, res) => {
     //sdsdsdg
     //sdsdgsdg
-    res.send();
+    res.send('Welcome on register page!');
 }
 
-exports.login = () => {
-    
+exports.login = (req,res) => {
+    res.send('Welcome on login page!');
 }
